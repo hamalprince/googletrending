@@ -6,8 +6,8 @@
 // to create separate JavaScript files as needed.
 //= require jquery-2.1.3.js
 //= require_self
-//= require_full_tree .
-
+//= require_tree .
+//
 if (typeof jQuery !== 'undefined') {
     (function($) {
         $('#spinner').ajaxStart(function() {

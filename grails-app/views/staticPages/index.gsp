@@ -114,28 +114,28 @@
                               <span aria-hidden="true" class="icon_profile"></span>
                         </div>
                         <h3>Easy To Use</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+                        <p>We're Coming Soon.</p>
                   </div>
                   <div class="col-sm-3 features-box wow fadeInDown">
                         <div class="features-box-icon">
                               <span aria-hidden="true" class="icon_pencil"></span>
                         </div>
                         <h3>Responsive Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+                        <p>We're Coming Soon.</p>
                   </div>
                   <div class="col-sm-3 features-box wow fadeInUp">
                         <div class="features-box-icon">
                               <span aria-hidden="true" class="icon_cogs"></span>
                         </div>
                         <h3>Bootstrap Engine</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+                        <p>We're Coming Soon.</p>
                   </div>
                   <div class="col-sm-3 features-box wow fadeInDown">
                         <div class="features-box-icon">
                               <span aria-hidden="true" class="icon_pin"></span>
                         </div>
                         <h3>We're Here</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+                        <p>We're Coming Soon.</p>
                   </div>
             </div>
       </div>

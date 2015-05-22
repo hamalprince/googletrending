@@ -42,10 +42,12 @@
                         <ul class="nav navbar-nav navbar-right">
                               <li>
                                     <span class="li-social">
-                                          <a href="#"><span class="social_facebook"></span></a>
-                                          <a href="#"><span class="social_twitter"></span></a>
-                                          <a href="#"><span class="social_googleplus"></span></a>
-                                          <a href="#"><span class="social_skype"></span></a>
+                                          <g:link url="http://www.facebook.com/googletrending" target="_blank">
+                                                <span class="social_facebook"></span>
+                                          </g:link>
+                                          <g:link url="javascript:void(0);"><span class="social_twitter"></span></g:link>
+                                          <g:link url="javascript:void(0);"><span class="social_googleplus"></span></g:link>
+                                          <g:link url="javascript:void(0);"><span class="social_skype"></span></g:link>
                                     </span>
                               </li>
                         </ul>

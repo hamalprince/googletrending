@@ -64,7 +64,7 @@ img { max-width: 100%; }
 	margin: -30px 0 0 -30px;
 	width: 60px;
 	height: 60px;
-	background: url(../img/loading.gif) center center no-repeat;
+	background: url(../images/img/loading.gif) center center no-repeat;
 }
 
 
@@ -129,7 +129,7 @@ ul.navbar-nav {
 
 .navbar-brand {
 	width: 104px;
-	background: url(../img/logo.png) left center no-repeat;
+	background: url('../images/img/logo.png') left center no-repeat;
 	text-indent: -99999px;
 }
 .navbar>.container .navbar-brand { margin-left: 0; }

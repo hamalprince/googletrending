@@ -41,13 +41,6 @@
                   <div class="collapse navbar-collapse" id="top-navbar-1">
                         <ul class="nav navbar-nav navbar-right">
                               <li>
-                                    <span class="li-text">
-                                          Put some text or
-                                    </span>
-                                    <a href="#"><strong>links</strong></a>
-                                    <span class="li-text">
-                                          here, or some icons:
-                                    </span>
                                     <span class="li-social">
                                           <a href="#"><span class="social_facebook"></span></a>
                                           <a href="#"><span class="social_twitter"></span></a>

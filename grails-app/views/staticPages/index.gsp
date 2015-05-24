@@ -148,7 +148,7 @@
       <div class="container">
             <div class="row">
                   <div class="col-sm-12 footer-copyright">
-                  &copy; TechVille Inc.
+                  &copy; ${Calendar.getInstance().get(Calendar.YEAR)}, TechVille Inc.
                   </div>
             </div>
       </div>

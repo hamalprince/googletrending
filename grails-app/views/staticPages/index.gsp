@@ -7,9 +7,10 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
+      <meta name="googletrending" content="Source of everything trending on Google">
       <meta name="layout" content="main">
       <title>
-            ${applicationTitle}
+            ${applicationTitle} | Source of everything trending on Google
       </title>
 </head>
 
@@ -86,7 +87,8 @@
                                     <form class="form-inline" role="form" action="assets/subscribe.php" method="post">
                                           <div class="form-group">
                                                 <label class="sr-only" for="subscribe-email">Email address</label>
-                                                <input type="text" name="email" placeholder="Enter your email..." class="subscribe-email form-control" id="subscribe-email">
+                                                <input type="text" name="email" class="form-control" placeholder="Enter your email..."  id="subscribe-email">
+                                                %{--<input type="text" name="email" placeholder="Enter your email..." class="subscribe-email form-control" id="subscribe-email">--}%
                                           </div>
                                           <button type="submit" class="btn">Subscribe</button>
                                     </form>
@@ -113,29 +115,29 @@
                         <div class="features-box-icon">
                               <span aria-hidden="true" class="icon_profile"></span>
                         </div>
-                        <h3>Easy To Use</h3>
-                        <p>We're Coming Soon.</p>
+                        <h3>Sign Up</h3>
+                        %{--<p>We're Coming Soon.</p>--}%
                   </div>
                   <div class="col-sm-3 features-box wow fadeInDown">
                         <div class="features-box-icon">
                               <span aria-hidden="true" class="icon_pencil"></span>
                         </div>
-                        <h3>Responsive Design</h3>
-                        <p>We're Coming Soon.</p>
+                        <h3>Blog</h3>
+                        %{--<p>We're Coming Soon.</p>--}%
                   </div>
                   <div class="col-sm-3 features-box wow fadeInUp">
                         <div class="features-box-icon">
                               <span aria-hidden="true" class="icon_cogs"></span>
                         </div>
-                        <h3>Bootstrap Engine</h3>
-                        <p>We're Coming Soon.</p>
+                        <h3>Preferences</h3>
+                        %{--<p>We're Coming Soon.</p>--}%
                   </div>
                   <div class="col-sm-3 features-box wow fadeInDown">
                         <div class="features-box-icon">
                               <span aria-hidden="true" class="icon_pin"></span>
                         </div>
                         <h3>We're Here</h3>
-                        <p>We're Coming Soon.</p>
+                        %{--<p>We're Coming Soon.</p>--}%
                   </div>
             </div>
       </div>
@@ -146,7 +148,7 @@
       <div class="container">
             <div class="row">
                   <div class="col-sm-12 footer-copyright">
-                  &copy; TechVille, Inc.
+                  &copy; TechVille Inc.
                   </div>
             </div>
       </div>

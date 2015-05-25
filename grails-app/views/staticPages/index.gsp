@@ -7,7 +7,23 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-      <meta name="googletrending" content="Source of everything trending on Google">
+      <meta name="description" content="Source of everything trending on Google">
+      <meta itemprop="name" content="${applicationTitle}">
+      <meta itemprop="description" content="Source of everything trending on Google">
+      %{--<meta itemprop="image" content="http://flipkarma.com/static/new/img/flipkarma.png">--}%
+
+      %{--<meta name="twitter:card" content="FlipKarma">
+      <meta name="twitter:site" content="@FlipKarma">
+      <meta name="twitter:title" content="FlipKarma.com - Online Student Profile">
+      <meta name="twitter:description" content="Source of everything trending on Google">
+      <meta name="twitter:creator" content="@flipkarma">
+      <meta name="twitter:image" content="http://flipkarma.com/static/new/img/flipkarma.png">--}%
+
+      <meta property="og:title" content="${applicationTitle}"/>
+      <meta property="og:type" content="article"/>
+      <meta property="og:url" content="http://googletrending.com/"/>
+      %{--<meta property="og:image" content="http://flipkarma.com/static/new/img/flipkarma.png"/>--}%
+      <meta property="og:description" content="Source of everything trending on Google"/>
       <meta name="layout" content="main">
       <title>
             ${applicationTitle} | Source of everything trending on Google

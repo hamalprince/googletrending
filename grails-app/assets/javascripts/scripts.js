@@ -26,7 +26,7 @@ jQuery(document).ready(function() {
 	    Countdown initializer
 	*/
 	var now = new Date();
-	var targetDate = new Date(2015, 5, 17);
+	var targetDate = new Date(2015, 7, 17);
 	//TODO:need to refactor
 	var differenceDate = targetDate.valueOf() - now.valueOf();
 	var countTo = differenceDate + now.valueOf();

@@ -52,7 +52,10 @@
                               <span class="icon-bar"></span>
                               <span class="icon-bar"></span>
                         </button>
-                        <g:link class="navbar-brand" uri="/">${applicationTitle}</g:link>
+                        %{--
+                            Application Title
+                            <g:link class="navbar-brand" uri="/">${applicationTitle}</g:link>
+                        --}%
                   </div>
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="top-navbar-1">

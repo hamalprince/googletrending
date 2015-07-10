@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title><g:layoutTitle default="Google Trending"/></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" language="JavaScript">
+            var URL_ROOT = '${request.contextPath}';
+            var CKEDITOR_BASEPATH = URL_ROOT + '/static/js/ckeditor/';
+        </script>
         <asset:stylesheet src="application.css"/>
         <asset:javascript src="application.js"/>
 

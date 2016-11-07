@@ -26,11 +26,11 @@ jQuery(document).ready(function() {
 	    Countdown initializer
 	*/
 	var now = new Date();
-	var targetDate = new Date(2015, 7, 17);
+	//var targetDate = new Date(2015, 7, 17);
 	//TODO:need to refactor
-	var differenceDate = targetDate.valueOf() - now.valueOf();
-	var countTo = differenceDate + now.valueOf();
-	//var countTo = 25 * 24 * 60 * 60 * 1000 + now.valueOf();
+	//var differenceDate = targetDate.valueOf() - now.valueOf();
+	//var countTo = differenceDate + now.valueOf();
+	var countTo = 25 * 24 * 60 * 60 * 1000 + now.valueOf();
 	$('.timer').countdown(countTo, function(event) {
 		$(this).find('.days').text(event.offset.totalDays);
 		$(this).find('.hours').text(event.offset.hours);
